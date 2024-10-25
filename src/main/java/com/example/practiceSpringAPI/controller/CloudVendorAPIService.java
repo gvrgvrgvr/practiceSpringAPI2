@@ -31,7 +31,7 @@ public class CloudVendorAPIService {
     @DeleteMapping("{vendorID}")
     public String deleteCloudVendorAPI(String hi){
         this.modelClass = null;
-        return "This will be the Rest API srpingboot app with DB";
+        return "This will be the Rest API srpingboot app without DB";
     }
 
 
